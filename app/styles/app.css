@@ -610,6 +610,10 @@ video {
   height: 24rem;
 }
 
+.h-24 {
+  height: 6rem;
+}
+
 .min-h-full {
   min-height: 100%;
 }
@@ -1019,6 +1023,10 @@ video {
     display: none;
   }
 
+  .sm\:h-32 {
+    height: 8rem;
+  }
+
   .sm\:items-center {
     align-items: center;
   }
@@ -1037,6 +1045,10 @@ video {
   .sm\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
+  }
+
+  .sm\:pt-8 {
+    padding-top: 2rem;
   }
 }
 

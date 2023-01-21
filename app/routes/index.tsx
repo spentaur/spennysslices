@@ -30,7 +30,7 @@ export default function Example() {
           {({ open }) => (
             <>
               <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-                <div className="flex h-32 justify-between">
+                <div className="flex h-24 sm:h-32 justify-between">
                   <div className="flex">
                     <div className="flex flex-shrink-0 items-center">
                       <a href="/">
@@ -114,7 +114,7 @@ export default function Example() {
                       </Transition>
                     </Menu> */}
                   </div>
-                  <div className="-mr-2 flex items-center pt-8 sm:hidden">
+                  <div className="-mr-2 flex items-center pt-6 sm:pt-8 sm:hidden">
                     {/* Mobile menu button */}
                     <Disclosure.Button className="inline-flex  items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
                       <span className="sr-only">Open main menu</span>
