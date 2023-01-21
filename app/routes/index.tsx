@@ -37,12 +37,12 @@ export default function Example() {
                         <img
                           className="block h-16 w-auto lg:hidden"
                           src="logo.svg"
-                          alt="Your Company"
+                          alt="Spenny's Slices"
                         />
                         <img
                           className="hidden h-16 w-auto lg:block"
                           src="logo.svg"
-                          alt="Your Company"
+                          alt="Spenny's Slices"
                         />
                       </a>
                     </div>
@@ -55,7 +55,7 @@ export default function Example() {
                             item.current
                               ? "border-sliceRed text-gray-900"
                               : "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700",
-                            "inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium h-8"
+                            "inline-flex items-center px-1 pt-1 border-b-2 font-medium h-8"
                           )}
                           aria-current={item.current ? "page" : undefined}
                         >
