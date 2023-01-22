@@ -17,7 +17,10 @@ export const meta: MetaFunction = () => ({
 });
 
 export function links() {
-  return [{ rel: "stylesheet", href: styles }];
+  return [
+    { rel: "stylesheet", href: styles },
+    { rel: "stylesheet", href: "https://rsms.me/inter/inter.css" },
+  ];
 }
 
 export default function App() {

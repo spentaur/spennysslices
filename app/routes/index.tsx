@@ -30,23 +30,18 @@ export default function Example() {
           {({ open }) => (
             <>
               <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-                <div className="flex h-24 sm:h-32 justify-between">
+                <div className="flex h-24 sm:h-32 items-center justify-between">
                   <div className="flex">
                     <div className="flex flex-shrink-0 items-center">
-                      <a href="/">
+                      <a href="/" className="">
                         <img
-                          className="block h-16 w-auto lg:hidden"
-                          src="logo.svg"
-                          alt="Spenny's Slices"
-                        />
-                        <img
-                          className="hidden h-16 w-auto lg:block"
+                          className="block h-16 w-auto"
                           src="logo.svg"
                           alt="Spenny's Slices"
                         />
                       </a>
                     </div>
-                    <div className="hidden sm:-my-px pt-8 sm:ml-6 sm:flex sm:space-x-8 items-center">
+                    <div className="hidden h-16 sm:-my-px sm:ml-6 sm:flex sm:space-x-8 items-end">
                       {navigation.map((item) => (
                         <a
                           key={item.name}
@@ -64,7 +59,7 @@ export default function Example() {
                       ))}
                     </div>
                   </div>
-                  <div className="hidden pt-8 sm:ml-6 sm:flex sm:items-center">
+                  <div className="hidden sm:ml-6 sm:flex sm:items-center">
                     {/* <button
                       type="button"
                       className="rounded-full  bg-white p-1 text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
@@ -114,7 +109,7 @@ export default function Example() {
                       </Transition>
                     </Menu> */}
                   </div>
-                  <div className="-mr-2 flex items-center pt-6 sm:pt-8 sm:hidden">
+                  <div className="-mr-2 h-16 flex items-end sm:hidden">
                     {/* Mobile menu button */}
                     <Disclosure.Button className="inline-flex  items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
                       <span className="sr-only">Open main menu</span>
